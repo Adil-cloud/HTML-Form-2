@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example 2</title>
+</head>
+<body>
+    <h1>Simple HTML Form Example 2</h1>
+    <form action="index.php" method="post">
+        <div>
+            <label for="username">Full Name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your full name"><br>
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" placeholder="Enter your password">
+        </div><br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male:</label>
+            <input type="radio" name="text" id="Gender">
+            <label for="Female">Female:</label>
+            <input type="radio" name="text" id="Gender">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div><br>
+        <div>
+            <label for="Phone number">Phone number:</label>
+            <select name="Phone number" id="Phone number">Phone number
+                <option value="+92">+92</option>
+                <option value="+93">+93</option>
+                <option value="+94">+94</option>
+                <option value="+95">+95</option>
+                <option value="+96">+96</option>
+            </select>
+            <input type="text" name="Phone number" id="Phone number" placeholder="Enter your phone number">
+        </div><br>
+        <input type="submit" value="Submit"><br>
+    </form>
+</body>
+</html>
